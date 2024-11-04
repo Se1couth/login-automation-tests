@@ -1,0 +1,9 @@
+# Исключить node_modules, поскольку они могут быть восстановлены через package.json
+node_modules/
+
+# Исключить файлы отчетов Allure
+allure-results/
+allure-report/
+
+# Исключить файлы временных данных
+*.log
